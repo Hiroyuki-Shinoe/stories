@@ -77,6 +77,28 @@
     background-color: rgba(24, 186, 155, 0.8);
 }
 
+ .about {
+    color : #000;
+    margin-right: 270px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url(about_top.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+
+ .about .content {
+    position: relative;
+    top: 150px;
+ }
+
+ .btn-primary {
+    border-radius: 0;
+    font-size: 16px;
+    padding: 12px 26px;
+ }
+
 .middle-content {
   padding: 70px 0;
 }
