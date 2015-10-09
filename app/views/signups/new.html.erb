@@ -1,0 +1,27 @@
+<div class="signup">
+  <%= image_tag "menu-white.svg", class: "icon-menu" %>
+  <div class="container">
+    <div class="row">
+      <div class="content text-left">
+        <div class="col-md-11 col-md-offset-1">
+         <h1>Get the latest updates from Stories</h1>
+        </div>
+        <div class="col-md-4 col-md-offset-1 text-left">
+          <%= form_for @signup do |s| %>
+            <div class="form-group">
+              <%= s.label :First_name %>
+              <%= s.text_field :firstname, class: 'form-control' %>
+            </div>
+            <div class="form-group">
+              <%= s.label :Email %>
+              <%= s.text_field :email, class: 'form-control' %>
+            </div>
+            <div class="form-group">
+              <%= s.submit "Join", class: 'btn btn-default' %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
